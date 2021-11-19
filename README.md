@@ -1,6 +1,6 @@
 # What is this about?
 
-This is a project who wants to help restaurants and coffeshops, to give a better experience to his customers.
+This is a project who wants to help restaurants and coffee shops, to give a better experience to his customers.
 
 ## What technologies are implicated?
 
