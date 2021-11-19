@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.shadow-item-custom {
+  box-shadow: 0 0.7px 2.2px rgba(0, 0, 0, 0.084),
+    0 1.7px 5.3px rgba(0, 0, 0, 0.121), 0 3.1px 10px rgba(0, 0, 0, 0.15),
+    0 5.6px 17.9px rgba(0, 0, 0, 0.179), 0 10.4px 33.4px rgba(0, 0, 0, 0.216),
+    0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+.custom-smooth-shadow {
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.brigth-shadow-red {
+  box-shadow: 0 0.7px 2.2px rgba(246, 23, 53, 0.322),
+    0 1.7px 5.3px rgba(255, 19, 90, 0.121), 0 3.1px 10px rgba(255, 28, 96, 0.15),
+    0 5.6px 17.9px rgba(255, 20, 98, 0.179),
+    0 10.4px 33.4px rgba(255, 35, 101, 0.216),
+    0 25px 80px rgba(255, 32, 99, 0.3);
+}
+
+.brigth-shadow-indigo {
+  box-shadow: 0 0.7px 2.2px rgba(127, 23, 246, 0.322),
+    0 1.7px 5.3px rgba(129, 19, 255, 0.121),
+    0 3.1px 10px rgba(126, 28, 255, 0.15),
+    0 5.6px 17.9px rgba(122, 20, 255, 0.179),
+    0 10.4px 33.4px rgba(119, 35, 255, 0.216),
+    0 25px 80px rgba(117, 32, 255, 0.3);
+}
